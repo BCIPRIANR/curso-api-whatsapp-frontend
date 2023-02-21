@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "react-scripts --openssl-legacy-provider build",
-    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "nuxt build",
+    "start": "nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint": "npm run lint:js"
